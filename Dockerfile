@@ -6,7 +6,3 @@ RUN chown -R node:node /usr/local/lib/node_modules \
 
 USER node
 RUN npm install -g @angular/cli
-
-# set npm as default package manager for root
-USER root
-RUN ng set --global packageManager=npm
