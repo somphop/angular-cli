@@ -6,5 +6,4 @@ RUN chown -R node:node /usr/local/lib/node_modules \
 
 USER node
 RUN npm install -g @angular/cli
-RUN npm install -g @angular-devkit/build-angular
 
